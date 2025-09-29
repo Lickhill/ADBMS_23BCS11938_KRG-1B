@@ -90,10 +90,10 @@ as
 	product_catalog as p
 	on o.product_id = p.product_id
 
-create role Divas
+create role Likhil
 login 
 password '1234'
 
-grant select on v_sales to Divas;
+grant select on v_sales to Likhil;
 
-revoke select on v_sales from Divas;
+revoke select on v_sales from Likhil;
